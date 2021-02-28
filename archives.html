@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>归档</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="./static/css/me.css">
+
+</head>
+<body>
+<!--导航-->
+<nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
+            <a href="#" class="active m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+            <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" pLaceholder="Search....">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!--中间部分-->
+<div class="m-container-small m-padded-tb-large">
+    <div class="ui container">
+        <!--头部-->
+        <div class="ui top attached padded segment">
+            <div class="ui middle aligned two column grid">
+                <div class="column">
+                    <h3 class="ui teal header">归档</h3>
+                </div>
+                <div class="right aligned column">
+                    共<h3 class="ui orange header m-inline-block m-text-thin"> 365 </h3>篇博客
+                </div>
+            </div>
+        </div>
+        <!-- 时间线 -->
+        <h2 class="ui center aligned header" style="color: beige">2020</h2>
+        <div class="ui fluid vertical menu">
+            <a href="#" target="_blank" class="item">
+        <span>
+            <i class="teal mini circle icon"></i>关于刻意练习
+            <div class="ui teal basic left pointing label my-padded-mini">01-03</div>
+        </span>
+                <div class="ui basic red label my-padded-small">原创</div>
+            </a>
+            <a href="#" target="_blank" class="item">
+        <span>
+            <i class="teal mini circle icon"></i>关于刻意练习
+            <div class="ui teal basic left pointing label my-padded-mini">07-03</div>
+        </span>
+                <div class="ui basic red label my-padded-small">转载</div>
+            </a>
+        </div>
+        <h2 class="ui center aligned header" style="color: beige">2021</h2>
+        <div class="ui fluid vertical menu">
+            <a href="#" target="_blank" class="item">
+        <span>
+            <i class="teal mini circle icon"></i>关于刻意练习
+            <div class="ui teal basic left pointing label my-padded-mini">01-03</div>
+        </span>
+                <div class="ui basic red label my-padded-small">原创</div>
+            </a>
+            <a href="#" target="_blank" class="item">
+        <span>
+            <i class="teal mini circle icon"></i>关于刻意练习
+            <div class="ui teal basic left pointing label my-padded-mini">07-03</div>
+        </span>
+                <div class="ui basic red label my-padded-small">转载</div>
+            </a>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!--底部footer-->
+<footer class="ui inverted vertical segment m-padded-tb-small">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="./static/images/wechat.jpg" class="ui rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-spaced m-text-lined ">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header m-text-spaced m-text-lined ">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email：</a>
+                    <a href="#" class="item">QQ：</a>
+                    <a href="#" class="item">微博：</a>
+                </div>
+            </div>
+            <div class="six wide column">
+                <h4 class="ui inverted header m-text-spaced m-text-thin ">My Blog</h4>
+                <p class="m-opacity-mini m-text-thin m-text-spaced">这里是我的个人博客、会分享我学习编程过程中的经理和心得，希望可以给来到这里的人带来帮助...</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src ="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+<script>
+    $('.menu.toggle').click(function (){
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+</script>
+</body>
+</html>
